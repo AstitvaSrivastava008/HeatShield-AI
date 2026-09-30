@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-xl border border-slate-200 shadow-card;
+  }
+
+  .card-pad {
+    @apply p-4 sm:p-5;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/40 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-blue-700 text-white hover:bg-blue-800;
+  }
+
+  .btn-secondary {
+    @apply btn border border-slate-300 bg-white text-slate-700 hover:bg-slate-50;
+  }
+
+  .btn-ghost {
+    @apply btn text-slate-600 hover:bg-slate-100;
+  }
+
+  .label {
+    @apply text-[11px] font-semibold uppercase tracking-wide text-slate-500;
+  }
+}
+
+/* Thin scrollbars for panels */
+.nice-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.nice-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+.nice-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Leaflet popup polish */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  font-family: inherit;
+}
+.leaflet-container {
+  font-family: inherit;
+  background:
+    linear-gradient(rgba(203, 213, 225, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(203, 213, 225, 0.35) 1px, transparent 1px),
+    linear-gradient(rgba(241, 245, 249, 0.9), rgba(241, 245, 249, 0.9));
+  background-size: 40px 40px, 40px 40px, 100% 100%;
+}
+
+/* Range slider styling */
+input[type="range"] {
+  @apply h-2 w-full cursor-pointer appearance-none rounded-full bg-slate-200;
+}
+input[type="range"]::-webkit-slider-thumb {
+  @apply h-4 w-4 appearance-none rounded-full border-2 border-white bg-blue-700 shadow;
+}

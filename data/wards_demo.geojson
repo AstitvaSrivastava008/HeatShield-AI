@@ -1,0 +1,751 @@
+{
+  "type": "FeatureCollection",
+  "name": "heatshield_demo_wards",
+  "demo_note": "DEMO/SYNTHETIC DATA - generated for prototype demonstration only. Not real-world data.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W01",
+        "ward_name": "Ward 01 - Riverside",
+        "demo_data": true,
+        "temp_offset_c": -0.4,
+        "elderly_fraction": 0.11,
+        "outdoor_worker_fraction": 0.14,
+        "population": 18400,
+        "population_density_index": 0.42,
+        "hospital_proximity_km": 3.1,
+        "green_cover_index": 0.55,
+        "centroid": [
+          79.035,
+          21.16
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.02,
+              21.175
+            ],
+            [
+              79.03349999999999,
+              21.1766
+            ],
+            [
+              79.0475,
+              21.175
+            ],
+            [
+              79.0491,
+              21.16
+            ],
+            [
+              79.0499,
+              21.158800000000003
+            ],
+            [
+              79.0401,
+              21.146800000000002
+            ],
+            [
+              79.02159999999999,
+              21.145200000000003
+            ],
+            [
+              79.0192,
+              21.163300000000003
+            ],
+            [
+              79.02,
+              21.175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W02",
+        "ward_name": "Ward 02 - Station Area",
+        "demo_data": true,
+        "temp_offset_c": 0.9,
+        "elderly_fraction": 0.16,
+        "outdoor_worker_fraction": 0.24,
+        "population": 26100,
+        "population_density_index": 0.78,
+        "hospital_proximity_km": 1.2,
+        "green_cover_index": 0.22,
+        "centroid": [
+          79.065,
+          21.16
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.05,
+              21.175
+            ],
+            [
+              79.06349999999999,
+              21.1766
+            ],
+            [
+              79.0775,
+              21.175
+            ],
+            [
+              79.0791,
+              21.16
+            ],
+            [
+              79.0799,
+              21.158800000000003
+            ],
+            [
+              79.0701,
+              21.146800000000002
+            ],
+            [
+              79.0516,
+              21.145200000000003
+            ],
+            [
+              79.0492,
+              21.163300000000003
+            ],
+            [
+              79.05,
+              21.175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W03",
+        "ward_name": "Ward 03 - Market Quarter",
+        "demo_data": true,
+        "temp_offset_c": 1.4,
+        "elderly_fraction": 0.13,
+        "outdoor_worker_fraction": 0.31,
+        "population": 31200,
+        "population_density_index": 0.88,
+        "hospital_proximity_km": 1.8,
+        "green_cover_index": 0.15,
+        "centroid": [
+          79.095,
+          21.16
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.08,
+              21.175
+            ],
+            [
+              79.09349999999999,
+              21.1766
+            ],
+            [
+              79.1075,
+              21.175
+            ],
+            [
+              79.1091,
+              21.16
+            ],
+            [
+              79.1099,
+              21.158800000000003
+            ],
+            [
+              79.1001,
+              21.146800000000002
+            ],
+            [
+              79.0816,
+              21.145200000000003
+            ],
+            [
+              79.0792,
+              21.163300000000003
+            ],
+            [
+              79.08,
+              21.175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W04",
+        "ward_name": "Ward 04 - Old Town",
+        "demo_data": true,
+        "temp_offset_c": 0.6,
+        "elderly_fraction": 0.22,
+        "outdoor_worker_fraction": 0.12,
+        "population": 22800,
+        "population_density_index": 0.71,
+        "hospital_proximity_km": 2.4,
+        "green_cover_index": 0.28,
+        "centroid": [
+          79.125,
+          21.16
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.11,
+              21.175
+            ],
+            [
+              79.12349999999999,
+              21.1766
+            ],
+            [
+              79.1375,
+              21.175
+            ],
+            [
+              79.1391,
+              21.16
+            ],
+            [
+              79.1399,
+              21.158800000000003
+            ],
+            [
+              79.1301,
+              21.146800000000002
+            ],
+            [
+              79.1116,
+              21.145200000000003
+            ],
+            [
+              79.1092,
+              21.163300000000003
+            ],
+            [
+              79.11,
+              21.175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W05",
+        "ward_name": "Ward 05 - North Fields",
+        "demo_data": true,
+        "temp_offset_c": -0.8,
+        "elderly_fraction": 0.14,
+        "outdoor_worker_fraction": 0.38,
+        "population": 15600,
+        "population_density_index": 0.31,
+        "hospital_proximity_km": 5.6,
+        "green_cover_index": 0.62,
+        "centroid": [
+          79.035,
+          21.13
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.02,
+              21.145
+            ],
+            [
+              79.03349999999999,
+              21.1466
+            ],
+            [
+              79.0475,
+              21.145
+            ],
+            [
+              79.0491,
+              21.13
+            ],
+            [
+              79.0499,
+              21.128800000000002
+            ],
+            [
+              79.0401,
+              21.1168
+            ],
+            [
+              79.02159999999999,
+              21.1152
+            ],
+            [
+              79.0192,
+              21.133300000000002
+            ],
+            [
+              79.02,
+              21.145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W06",
+        "ward_name": "Ward 06 - Tech Corridor",
+        "demo_data": true,
+        "temp_offset_c": 0.3,
+        "elderly_fraction": 0.08,
+        "outdoor_worker_fraction": 0.09,
+        "population": 24500,
+        "population_density_index": 0.64,
+        "hospital_proximity_km": 2.0,
+        "green_cover_index": 0.41,
+        "centroid": [
+          79.065,
+          21.13
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.05,
+              21.145
+            ],
+            [
+              79.06349999999999,
+              21.1466
+            ],
+            [
+              79.0775,
+              21.145
+            ],
+            [
+              79.0791,
+              21.13
+            ],
+            [
+              79.0799,
+              21.128800000000002
+            ],
+            [
+              79.0701,
+              21.1168
+            ],
+            [
+              79.0516,
+              21.1152
+            ],
+            [
+              79.0492,
+              21.133300000000002
+            ],
+            [
+              79.05,
+              21.145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W07",
+        "ward_name": "Ward 07 - Industrial Belt",
+        "demo_data": true,
+        "temp_offset_c": 1.8,
+        "elderly_fraction": 0.19,
+        "outdoor_worker_fraction": 0.42,
+        "population": 28900,
+        "population_density_index": 0.82,
+        "hospital_proximity_km": 4.2,
+        "green_cover_index": 0.11,
+        "centroid": [
+          79.095,
+          21.13
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.08,
+              21.145
+            ],
+            [
+              79.09349999999999,
+              21.1466
+            ],
+            [
+              79.1075,
+              21.145
+            ],
+            [
+              79.1091,
+              21.13
+            ],
+            [
+              79.1099,
+              21.128800000000002
+            ],
+            [
+              79.1001,
+              21.1168
+            ],
+            [
+              79.0816,
+              21.1152
+            ],
+            [
+              79.0792,
+              21.133300000000002
+            ],
+            [
+              79.08,
+              21.145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W08",
+        "ward_name": "Ward 08 - Lake View",
+        "demo_data": true,
+        "temp_offset_c": -0.6,
+        "elderly_fraction": 0.15,
+        "outdoor_worker_fraction": 0.11,
+        "population": 19700,
+        "population_density_index": 0.48,
+        "hospital_proximity_km": 2.7,
+        "green_cover_index": 0.58,
+        "centroid": [
+          79.125,
+          21.13
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.11,
+              21.145
+            ],
+            [
+              79.12349999999999,
+              21.1466
+            ],
+            [
+              79.1375,
+              21.145
+            ],
+            [
+              79.1391,
+              21.13
+            ],
+            [
+              79.1399,
+              21.128800000000002
+            ],
+            [
+              79.1301,
+              21.1168
+            ],
+            [
+              79.1116,
+              21.1152
+            ],
+            [
+              79.1092,
+              21.133300000000002
+            ],
+            [
+              79.11,
+              21.145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W09",
+        "ward_name": "Ward 09 - South Transit",
+        "demo_data": true,
+        "temp_offset_c": 0.7,
+        "elderly_fraction": 0.12,
+        "outdoor_worker_fraction": 0.29,
+        "population": 21400,
+        "population_density_index": 0.66,
+        "hospital_proximity_km": 3.4,
+        "green_cover_index": 0.25,
+        "centroid": [
+          79.035,
+          21.1
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.02,
+              21.115
+            ],
+            [
+              79.03349999999999,
+              21.1166
+            ],
+            [
+              79.0475,
+              21.115
+            ],
+            [
+              79.0491,
+              21.099999999999998
+            ],
+            [
+              79.0499,
+              21.0988
+            ],
+            [
+              79.0401,
+              21.0868
+            ],
+            [
+              79.02159999999999,
+              21.0852
+            ],
+            [
+              79.0192,
+              21.1033
+            ],
+            [
+              79.02,
+              21.115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W10",
+        "ward_name": "Ward 10 - Hospital Hills",
+        "demo_data": true,
+        "temp_offset_c": -0.5,
+        "elderly_fraction": 0.27,
+        "outdoor_worker_fraction": 0.08,
+        "population": 17300,
+        "population_density_index": 0.39,
+        "hospital_proximity_km": 0.8,
+        "green_cover_index": 0.66,
+        "centroid": [
+          79.065,
+          21.1
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.05,
+              21.115
+            ],
+            [
+              79.06349999999999,
+              21.1166
+            ],
+            [
+              79.0775,
+              21.115
+            ],
+            [
+              79.0791,
+              21.099999999999998
+            ],
+            [
+              79.0799,
+              21.0988
+            ],
+            [
+              79.0701,
+              21.0868
+            ],
+            [
+              79.0516,
+              21.0852
+            ],
+            [
+              79.0492,
+              21.1033
+            ],
+            [
+              79.05,
+              21.115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W11",
+        "ward_name": "Ward 11 - Canal Pada",
+        "demo_data": true,
+        "temp_offset_c": 0.2,
+        "elderly_fraction": 0.18,
+        "outdoor_worker_fraction": 0.35,
+        "population": 23600,
+        "population_density_index": 0.55,
+        "hospital_proximity_km": 4.8,
+        "green_cover_index": 0.34,
+        "centroid": [
+          79.095,
+          21.1
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.08,
+              21.115
+            ],
+            [
+              79.09349999999999,
+              21.1166
+            ],
+            [
+              79.1075,
+              21.115
+            ],
+            [
+              79.1091,
+              21.099999999999998
+            ],
+            [
+              79.1099,
+              21.0988
+            ],
+            [
+              79.1001,
+              21.0868
+            ],
+            [
+              79.0816,
+              21.0852
+            ],
+            [
+              79.0792,
+              21.1033
+            ],
+            [
+              79.08,
+              21.115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "W12",
+        "ward_name": "Ward 12 - South Extension",
+        "demo_data": true,
+        "temp_offset_c": 0.5,
+        "elderly_fraction": 0.1,
+        "outdoor_worker_fraction": 0.17,
+        "population": 27400,
+        "population_density_index": 0.73,
+        "hospital_proximity_km": 2.2,
+        "green_cover_index": 0.36,
+        "centroid": [
+          79.125,
+          21.1
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.11,
+              21.115
+            ],
+            [
+              79.12349999999999,
+              21.1166
+            ],
+            [
+              79.1375,
+              21.115
+            ],
+            [
+              79.1391,
+              21.099999999999998
+            ],
+            [
+              79.1399,
+              21.0988
+            ],
+            [
+              79.1301,
+              21.0868
+            ],
+            [
+              79.1116,
+              21.0852
+            ],
+            [
+              79.1092,
+              21.1033
+            ],
+            [
+              79.11,
+              21.115
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

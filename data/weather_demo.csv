@@ -1,0 +1,9 @@
+# DEMO/SYNTHETIC DATA - generated for prototype demonstration only. Not real-world data.
+# Synthetic 5-day forecast for the fictional demo city.
+# Units: temp_c=Celsius, wind_ms=m/s, solar_proxy=W/m2 (clear-sky index x1000), humidity=%RH
+day_label,date,temp_max_c,temp_mean_c,temp_min_c,humidity_mean_pct,wind_speed_ms,solar_radiation_proxy,note
+Day 1,2026-05-11,38.4,32.2,26.1,44,3.2,640,Pre-heatwave baseline
+Day 2,2026-05-12,40.1,33.7,27.3,47,2.8,690,Heat building
+Day 3,2026-05-13,41.8,35.1,28.4,52,2.2,745,Heatwave onset
+Day 4,2026-05-14,43.0,36.3,29.6,56,1.8,790,Peak approach
+Day 5,2026-05-15,43.6,36.9,30.2,59,1.5,810,Peak heat day

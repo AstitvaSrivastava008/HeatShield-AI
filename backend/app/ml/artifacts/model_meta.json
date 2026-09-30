@@ -1,0 +1,43 @@
+{
+  "model": "xgboost-regressor",
+  "objective": "reg:squarederror",
+  "features": [
+    "temperature",
+    "humidity",
+    "wind_speed",
+    "solar_radiation",
+    "wbgt",
+    "utci",
+    "heat_index",
+    "elderly_density",
+    "outdoor_worker_density",
+    "population_density",
+    "historical_heat_impact_proxy"
+  ],
+  "n_samples": 6000,
+  "n_train": 4800,
+  "n_test": 1200,
+  "train_test_split": "80/20 stratified random",
+  "metrics": {
+    "mae_score_points": 3.14,
+    "rmse_score_points": 4.08,
+    "r2": 0.977,
+    "metric_note": "Prototype evaluation on SYNTHETIC demonstration data only. Does NOT represent real-world model accuracy."
+  },
+  "feature_importance": {
+    "heat_index": 0.5782,
+    "wbgt": 0.3142,
+    "utci": 0.0695,
+    "outdoor_worker_density": 0.0104,
+    "elderly_density": 0.0098,
+    "population_density": 0.0077,
+    "temperature": 0.0032,
+    "historical_heat_impact_proxy": 0.0026,
+    "humidity": 0.002,
+    "solar_radiation": 0.0016,
+    "wind_speed": 0.0009
+  },
+  "trained_on": "synthetic_demo_data",
+  "demo_data": true,
+  "generated_at": "2026-09-22T19:01:02.100188+00:00"
+}

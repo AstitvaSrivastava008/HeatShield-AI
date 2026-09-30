@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.7.0
+pandas>=2.2.0
+numpy>=1.26.0
+xgboost>=2.1.0
+scikit-learn>=1.5.0
+joblib>=1.4.0
+# Optional: SHAP is used when available; the API falls back to model
+# feature importance otherwise (clearly labelled in the UI).
+shap>=0.46.0
